@@ -1,38 +1,13 @@
-# SharpLAPSPassword
+# SharpCLMBypass
 
 ## Description
-This tool will search for LAPS password on a specific domain. 
+Bypass the Constrained Language Mode in powershell using RunSpace in C#.
 
 ## Usage
 
 ```
-C:\>SharpLAPSPassword.exe --help
-SharpLAPSPassword 1.0.0.0
-Author @davidlebr1
-
-  -d, --domaincontroller    Required. Domain controller ip or name.
-
-  -u, --username            Username.
-
-  -p, --password            Password
-
-  --help                    Display this help screen.
-
-  --version                 Display version information.
+C:\>SharpCLMBypass.exe "powershell command"
 ```
 
 ### Example
-
-#### With the current user context
-```
-C:\>SharpLAPSPassword.exe -d 192.168.1.10
-wk01.test.local:uwyL$*z&S%FR&4
-srv01.test.local:5rWWxw*Zc4@ZKC
-```
-
-#### Passing username and password
-```
-C:\>SharpLAPSPassword.exe -d 192.168.1.10 -u john -p doe
-wk01.test.local:uwyL$*z&S%FR&4
-srv01.test.local:5rWWxw*Zc4@ZKC
-```
+![2021_01_16_18_01_02_Windows_PowerShell](https://user-images.githubusercontent.com/838845/104830288-77c32000-584b-11eb-88e9-2ece88de2270.png)
